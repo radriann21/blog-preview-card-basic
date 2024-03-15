@@ -4,5 +4,22 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-yellow: hsl(47, 88%, 63%);
+  --neutral-grey: hsl(0, 0%, 50%);
+  --neutral-black: hsl(0, 0%, 7%);
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--primary-yellow);
+  font-family: 'Figtree', sans-serif;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
