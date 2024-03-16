@@ -101,5 +101,16 @@ h5 {
   font-weight: 700;
 }
 
+@media (width <= 380px) {
+  
+  body {
+    padding: 1rem;
+  }
+
+  article.blog-container {
+    width: 320px;
+  }
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
