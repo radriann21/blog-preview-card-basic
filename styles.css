@@ -21,5 +21,85 @@ body {
   justify-content: center;
 }
 
+article.blog-container {
+  width: 380px;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 8px 10px 0px 0px rgba(0,0,0,0.91);
+  border: none;
+  transition: .2s ease-in all;
+}
+
+article.blog-container:hover {
+  box-shadow: 8px 10px 0px 5px rgba(0,0,0,0.91);
+}
+
+img.illustration {
+  border-radius: 8px;
+  border: none;
+}
+
+section.article-info {
+  margin-top: .5rem;
+}
+
+div.badge {
+  margin-top: .8rem;
+  width: 90px;
+  height: fit-content;
+  padding: .5rem;
+  text-align: center;
+  background-color: var(--primary-yellow);
+  color: var(--neutral-black);
+  font-size: 13px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: .5rem;
+}
+
+span.date {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+div.article-text {
+  margin-top: 1rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-weight: 800;
+  transition: .2s ease-in;
+  cursor: pointer;
+}
+
+h2:hover {
+  color: var(--primary-yellow);
+}
+
+p {
+  color: var(--neutral-grey);
+  margin-bottom: 1rem;
+}
+
+div.user-info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+img.user-avatar {
+  width: 35px;
+  margin-right: .5rem;
+}
+
+h5 {
+  font-weight: 700;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
