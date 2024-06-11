@@ -103,8 +103,9 @@ img.user-avatar {
   margin-right: .5rem;
 }
 
-h5 {
+h3 {
   font-weight: 700;
+  font-size: 14px;
 }
 
 @media (width <= 380px) {
