@@ -10,15 +10,21 @@
   --neutral-black: hsl(0, 0%, 7%);
 }
 
+@font-face {
+  font-family: 'Figtree';
+  src: url('/assets/fonts/Figtree-VariableFont_wght.ttf');
+}
+
 body {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   background-color: var(--primary-yellow);
   font-family: 'Figtree', sans-serif;
   font-size: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 article.blog-container {
@@ -66,7 +72,7 @@ span.date {
   font-size: 12px;
 }
 
-div.article-text {
+section.article-text {
   margin-top: 1rem;
 }
 
@@ -102,7 +108,6 @@ h5 {
 }
 
 @media (width <= 380px) {
-  
   body {
     padding: 1rem;
   }
@@ -112,5 +117,5 @@ h5 {
   }
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; margin-top: 1rem; }
 .attribution a { color: hsl(228, 45%, 44%); }
